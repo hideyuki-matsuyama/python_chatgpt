@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 # APIキーの設定
-api_key = "ナイショ"
+api_key = "ナイショ" # 事前に正式取得した値を代入してくださいまし。
 
 # クライアント
 client = OpenAI(api_key = api_key)
